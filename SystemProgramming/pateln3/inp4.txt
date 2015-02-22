@@ -1,0 +1,8 @@
+SC354   START 0 
+GOFORIT  LDA =X'5A'
+         LDA =C'()'
+         LDA =X'012345'
+         LDA =C'012345'
+         LDA =C'()'
+         LDA =X'5A'
+         END GOFORIT

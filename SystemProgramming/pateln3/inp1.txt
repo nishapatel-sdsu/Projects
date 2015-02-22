@@ -1,0 +1,10 @@
+PROG START 0
+
+ALPHA FLOAT 
+      RMO T,X
+      LDA #1
+      STA BRAVO,X
+      CLEAR S
+BRAVO HIO
+      END ALPHA
+
