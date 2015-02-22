@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type='text/javascript'>
+
+$(document).ready(function(){
+	
+	$(".box").hover(function() {
+		$(this).removeClass("box").addClass("boxhover");
+			}, function() {
+		$(this).removeClass("boxhover").addClass("box");
+	});
+
+       
+});
+</script>
+<body>
+<style type="text/css">
+
+
+.outside {
+        width: 1000px;
+        height: 771px;
+        position:absolute;
+        z-index:9;
+        background-image:url(eye.png);
+        <!-- pointer-events: none; -->
+        ms-filter: 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=eye.png,
+ sizingMethod=scale)';
+}
+
+.outsidelowindex {
+        width: 1000px;
+        height: 771px;
+        position:absolute;
+        z-index:-1;
+        background-image:url(eye.png);
+        <!-- pointer-events: none; -->
+        ms-filter: 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=eye.png,
+ sizingMethod=scale)';
+}
+
+.imagesbox {
+        width:577px;
+        height:575px;
+        padding-top: 92px;
+        padding-left:211px;
+        z-index:1;
+}
+.imagea {
+        background-color: #fff;
+        width:58px;
+        height:115px;
+        float:left;
+}
+.imageb {
+        background-color: #fff;
+        width:53px;
+        height:115px;
+        float:left;
+}
+.imagec {
+        background-color: #fff;
+        width:55px;
+        height:116px;
+        float:left;
+}
+.imaged {
+        background-color: #fff;
+        width:53px;
+        height:116px;
+        float:left;
+}
+
+
+.image1 {
+        width:278px;
+        height:115px;
+        float:left;
+        position:relative;
+        overflow:hidden;
+}
+.image2 {
+        width:188px;
+        height:115px;
+        float:left;
+        overflow:hidden;
+}
+.image3 {
+        width:204px;
+        height:113px;
+        float:left;
+        overflow:hidden;
+}
+.image4 {
+        width:180px;
+        height:113px;
+        float:left;
+        overflow:hidden;
+}
+.image5 {
+        width:193px;
+        height:113px;
+        float:left;
+        overflow:hidden;
+}
+.image6 {
+        width:158px;
+        height:116px;
+        float:left;
+        overflow:hidden;
+}
+.image7 {
+        width:254px;
+        height:116px;
+        float:left;
+        overflow:hidden;
+}
+.image8 {
+        width:165px;
+        height:116px;
+        float:left;
+        overflow:hidden;
+}
+.image9 {
+        width:214px;
+        height:115px;
+        float:left;
+        overflow:hidden;
+}
+.image10 {
+        width:231px;
+        height:115px;
+        float:left;
+        overflow:hidden;
+}
+.image11 {
+        width:132px;
+        height:115px;
+        float:left;
+        overflow:hidden;
+}
+.image12 {
+        width:221px;
+        height:116px;
+        float:left;
+        overflow:hidden;
+}
+.image13 {
+        width:248px;
+        height:116px;
+        float:left;
+        overflow:hidden;
+}
+.box
+{
+   z-index: 5;
+   transform: scale(1);
+   -moz-transform: scale(1);
+   -webkit-transform: scale(1);
+   transition:
+      background-color 1s,
+      box-shadow 1s,
+      transform 0.5s;
+   -moz-transition:
+      background-color 1s,
+      -moz-box-shadow 1s,
+      -moz-transform 0.5s;
+   -webkit-transition:
+      background-color 1s,
+      -webkit-box-shadow 1s,
+      -webkit-transform 0.5s;
+}
+.boxhover
+{
+   z-index: 10;
+   box-shadow: 0 0 15px #000;
+   -moz-box-shadow: 0 0 15px #000;
+   -webkit-box-shadow: 0 0 15px #000;
+
+   transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+}
+
+</style>
+
+<div class="outside"></div>
+        <div class="imagesbox">
+        <div class="imagea"></div>
+        <div class="image1 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image2 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+     <!--   <div class="imageb"></div> -->
+        <div class="image3 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image4 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image5 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image6 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image7"></div>
+        <div class="image8 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image9 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image10 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image11 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+      <!--  <div class="imagec"></div> -->
+        <div class="image12 box"><a href="#"><img
+src="" alt="Impact
+2018" /></a></div>
+        <div class="image13 box"><a href=""><img
+src="" alt="Impact
+2018" /></a></div>
+     
+        </div>
+
+</body>
+</html>
+

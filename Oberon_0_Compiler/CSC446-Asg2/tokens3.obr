@@ -1,0 +1,9 @@
+MODULE three;
+    CONST one = "1" ; two = '4';
+	
+	VAR four, five: CHAR;
+	  PROCEDURE six ( VAR seven: INTEGER; eight: INTEGER );
+	  
+	  END six;
+
+	END three.

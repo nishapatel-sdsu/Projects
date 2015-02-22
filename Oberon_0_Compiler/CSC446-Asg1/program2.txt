@@ -1,0 +1,18 @@
+MODULE Main;
+
+PROCEDURE Proc1;
+ VAR x,y,z:INTEGER ^;
+BEGIN (* this  (*  is  comment *) commen3 *)
+ (* this is second comment *)
+  y :=  20.33
+  z >= 20;
+  x > y OR z;
+  Write(x);
+  END Proc  
+  1;
+BEGIN
+"Hell0 my name is"
+'Nisha'
+"can't"
+	  Proc1;
+END Main.
