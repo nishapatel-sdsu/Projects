@@ -1,0 +1,31 @@
+ Asg1_B Fortran program started
+
+ Infix notation : 3*5+5/2-1+3*2                                     
+ The postfix notation is: 35*52/+1-32*+                                                                                                                                                                                           
+ The postfixevaluation is:           22
+
+ Infix notation : (1 + 4)/(3 + 2)*1 + 7-(3 / 2 * 1)                 
+ The postfix notation is: 14+32+/1*7+32/1*-                                                                                                                                                                                       
+ The postfixevaluation is:            7
+
+ Infix notation : (3 / 2) * 5 / 2 + 3 * 3 - 5 / 2                   
+ The postfix notation is: 32/5*2/33*+52/-                                                                                                                                                                                         
+ The postfixevaluation is:            9
+
+ Infix notation : (5 + 3 * 2) / 3 * 1 * 3 / 2 + (4 + 1) / (5 / 2)   
+ The postfix notation is: 532*+3/1*3*2/41+52//+                                                                                                                                                                                   
+ The postfixevaluation is:            6
+
+ Infix notation : 5 * 6 + 4 / 2 - 2 + 9                             
+ The postfix notation is: 56*42/+2-9+                                                                                                                                                                                             
+ The postfixevaluation is:           39
+
+ Infix notation : (2 + 1) / (2 + 3) * 1 + 3 - (1 + 2 * 1)           
+ The postfix notation is: 21+23+/1*3+121*+-                                                                                                                                                                                       
+ The postfixevaluation is:            0
+
+ Infix notation : (3 * 3) * 6 / 2 + 3 + 3 - 2 + 5                   
+ The postfix notation is: 33*6*2/3+3+2-5+                                                                                                                                                                                         
+ The postfixevaluation is:           36
+
+ Program completed
